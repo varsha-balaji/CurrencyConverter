@@ -13,33 +13,33 @@ def start():
     
     while value == True:
         print("\nDisplayed are the different conversion options : What do you want to convert?\nChoose a number.")
-        user = input("1) Euro->Dollar\n2) Rupees->Dollar\n3) Yen->Dollar\n4) Pound->Dollar\n5) Franc->Dollar\n6) Canadian Dollar\n")
-        if user=='1':
+        user = input("1) Euro->Dollar\n2) Rupees->Dollar\n3) Yen->Dollar\n4) Pound->Dollar\n5) Franc->Dollar\n6) Canadian Dollar->Dollar\n")
+        if user==1:
             print("\nChoice : 1) Euro->Dollar\n")
             time.sleep(2)
             value = False
             currency = "Euros"
-        elif user=='2':
+        elif user==2:
             print("\nChoice : 2) Rupees->Dollar\n")
             time.sleep(2)
             value = False
             currency = "Rupees"
-        elif user=='3':
+        elif user==3:
             print("\nChoice : 3) Yen->Dollar\n")
             time.sleep(2)
             value = False
             currency = "Yen"
-        elif user=='4':
+        elif user==4:
             print("\nChoice : 4) Pound->Dollar\n")
             time.sleep(2)
             value = False
             currency = "Pounds"
-        elif user=='5':
+        elif user==5:
             print("\nChoice : 5) Franc->Dollar\n")
             time.sleep(2)
             value = False
             currency = "Francs"
-        elif user=="6":
+        elif user==6:
             print("\nChoice : 6) Canadian Dollar->Dollar\n")
             time.sleep(2)
             value = False
